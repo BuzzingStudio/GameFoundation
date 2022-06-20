@@ -17,11 +17,11 @@
                 var elementType = typeInfo.GetElementType();
                 if (elementType == null) return null;
                 var array     = Array.CreateInstance(elementType, arraySize);
-                // var converter = CsvHelper.TypeConverterCache.GetConverter(elementType);
+                var converter = CsvHelper.TypeConverterCache.GetConverter(elementType);
 
                 for (int i = 0; i < arraySize; i++)
                 {
-                    // array.SetValue(converter.ConvertFromString(stringData[i], elementType), i);
+                    array.SetValue(converter.ConvertFromString(stringData[i], elementType), i);
                 }
 
                 return array;
