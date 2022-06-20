@@ -1,0 +1,27 @@
+{
+  "name": "com.buzzing.game-foundation",
+  "displayName": "Game Foundation",
+  "description": "Game Foundation provides pre-built common game systems that are flexible and extensible so that developers can focus on building unique gameplay.",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuzzingStudio/GameFoundation.git"
+  },
+  "author": {
+    "name": "ninhnv",
+    "email": "ninhnv15@gmail.com"
+  },
+  "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+    "com.neuecc.unirx": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts",
+    "com.coffee.ui-effect": "https://github.com/mob-sakai/UIEffect.git",
+    "com.unity.addressables": "1.19.19",
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
+  },
+  "keywords": [
+    "SDK",
+    "Tools"
+  ]
+}

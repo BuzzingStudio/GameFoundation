@@ -1,0 +1,31 @@
+{
+    "name": "GameFoundation",
+    "rootNamespace": "",
+    "references": [
+        "GameFoundation.Extendsions",
+        "Unity.Addressables",
+        "UniTask",
+        "UniTask.Addressables",
+        "Unity.ResourceManager",
+        "UniRx",
+        "Unity.TextMeshPro",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.Timeline",
+        "DOTween.Modules"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "Select...",
+            "expression": "",
+            "define": "CLIENT"
+        }
+    ],
+    "noEngineReferences": false
+}
