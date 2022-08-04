@@ -22,7 +22,7 @@
     "defineConstraints": [],
     "versionDefines": [
         {
-            "name": "Select...",
+            "name": "Unity",
             "expression": "",
             "define": "CLIENT"
         }
