@@ -5,7 +5,7 @@ namespace GameFoundation.GameManager
 {
     using UnityEngine;
 
-    public class MechVersion
+    public class GameVersion
     {
         public static string Version = Application.version;
         public static string FullInfo => "v0.6.1 - Build: 1 - 07/15/2021 22:13:27";

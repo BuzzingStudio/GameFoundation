@@ -70,9 +70,9 @@ namespace GameFoundation.Network.WebService
                     request.AddHeader("Authorization", "Bearer " + jwtToken);
                 }
 
-                if (!string.IsNullOrEmpty(MechVersion.Version))
+                if (!string.IsNullOrEmpty(GameVersion.Version))
                 {
-                    request.AddHeader("game-version", MechVersion.Version);
+                    request.AddHeader("game-version", GameVersion.Version);
                 }
 
                 request.RawData = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(wrappedData));
